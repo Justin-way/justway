@@ -5,12 +5,17 @@
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
         {{ if .Params.Image }}
-        <img src="{{ .Params.Image | absURL }}" alt="" class="img-fluid d-block mx-auto rounded-circle mb-4">
+        <img src="{{ .Params.Image | absURL }}" alt="" class="img-fluid d-block mx-auto rounded-circle mb-4" width="300" height="200">
         {{ end }}
         <h4 class="widget-title">{{ .Title | markdownify }}</h4>
-        <div class="content">
+        <div class="content" >
           {{ .Content }}
+          I am Wayne Yeh.</br>
+          Junior software engineer in camLine, providing service for the electronics industry. <br/>
+          Skill in Java, Spring Boot, SQL and Linux. <br/>
+          3 years quality management experience in the electronics industry.<br/>
         </div>
+        <br>
         <h4 class="widget-title">Experience</h4>
         <ul class="timeline">
           <!-- Item 1 -->
@@ -18,9 +23,10 @@
             <div class="direction-r">
               <div class="flag-wrapper">
                 <span class="hexa"></span>
-                <span class="time-wrapper"><span class="time">Feb 2015</span></span>
+                <span class="time-wrapper"><span class="time">Nov 2021 - Present</span></span>
               </div>
-              <div class="desc"><h5>Java engineer</h5> test</div>
+              <div class="desc"><h5>Software Engineer</h5> Locate at New Taipei City, Taiwan
+              </div>
             </div>
           </li>
         
@@ -29,20 +35,20 @@
             <div class="direction-l">
               <div class="flag-wrapper">
                 <span class="hexa"></span>
-                <span class="time-wrapper"><span class="time">Dec 2014</span></span>
+                <span class="time-wrapper"><span class="time">Oct 2017 - Nov 2021</span></span>
               </div>
-              <div class="desc">Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore aliquip enim cupidatat laborum dolore.</div>
+              <div class="desc"><h5>Quality System Engineer</h5>Taoyuan City, Taiwan</div>
             </div>
           </li>
-        
+          
           <!-- Item 3 -->
           <li>
             <div class="direction-r">
               <div class="flag-wrapper">
                 <span class="hexa"></span>
-                <span class="time-wrapper"><span class="time">July 2014</span></span>
+                <span class="time-wrapper"><span class="time">Sep 2011 - Sep 2015</span></span>
               </div>
-              <div class="desc">Lorem ipsum Minim labore Ut cupidatat quis qui deserunt proident fugiat pariatur cillum cupidatat reprehenderit sit id dolor consectetur ut.</div>
+              <div class="desc"><h5>Tamkang University</h5>The Department of Chemistry</div>
             </div>
           </li>
         </ul>

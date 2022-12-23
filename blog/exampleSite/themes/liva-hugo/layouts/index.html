@@ -55,7 +55,7 @@
             <article class="card">
              
               <div class="card-body px-0">
-                <a href="{{ .Permalink }}" class="h5 d-block my-3"><font size="5">●&nbsp;{{ .Title | markdownify }}</font></a>
+                <a href="{{ .Permalink }}" class="h5 d-block my-3"> <font size="5">●&nbsp;{{ .Title | markdownify }}</font></a>
                 <div class="mb-3 post-meta">
                   <span>&emsp;&nbsp;&nbsp;By {{ .Site.Params.Author }}</span>
                   {{ if not .Params.HideDate }}

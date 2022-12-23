@@ -1,7 +1,7 @@
 ---
 title: "小偉第一篇文章"
 date: 2022-12-19T10:07:47+08:00
-draft: false
+draft: true
 
 # post thumb
 image: "images/post/post-3.jpg"
