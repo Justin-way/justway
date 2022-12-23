@@ -20,7 +20,7 @@
                   <span>By {{ .Site.Params.Author }}</span>
                   {{ if not .Params.HideDate }}
                   <span class="border-bottom border-primary px-2 mx-1"></span>
-                  <span>{{ .PublishDate.Format "02 January 2006" }}</span>
+                  <span>{{ .PublishDate.Format "2006-01-02" }}</span>
                   {{ end }}
                 </div>
                 <a href="{{ .Permalink }}"
@@ -57,13 +57,13 @@
               <div class="card-body px-0">
                 <a href="{{ .Permalink }}" class="h5 d-block my-3"> <font size="5">●&nbsp;{{ .Title | markdownify }}</font></a>
                 <div class="mb-3 post-meta">
-                  <span>&emsp;&nbsp;&nbsp;By {{ .Site.Params.Author }}</span>
+                  <span>&emsp;&nbsp;&nbsp;By {{ .Site.Params.Author }}&nbsp;</span>
                   {{ if not .Params.HideDate }}
                   <span>{{ .PublishDate.Format "2006-01-02" }}</span>
                   {{ end }}
                   {{ range .Params.Categories }}
                   <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
-                    class="text-primary">&emsp;&nbsp;#{{ . | title | humanize }}</a>
+                    class="text-primary">&nbsp;#{{ . | title | humanize }}</a>
                   {{ end }}
                 </div>
                 <p class="card-text">&emsp;&nbsp;&nbsp;{{ .Description }}</p>
