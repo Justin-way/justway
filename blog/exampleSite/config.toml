@@ -4,7 +4,7 @@ languageCode = "zh-tw"
 title = "Wayne's Blog"
 theme = "liva-hugo"
 summaryLength = "10"
-paginate = 6
+paginate = 5
 disqusShortname = "justin-way"
 
 [outputs]
@@ -75,12 +75,6 @@ googleAnalitycsID = "UA-252541310-1"
 
 #test
 
-# Contact Information
-mobile = "0920111222"
-email = "thebest77771023@yahoo.com.tw"
-location = "Dhaka, Bangladedsh"
-# copyright
-copyright = "| copyright &copy; 2021 [Themefisher](https://themefisher.com/hugo-themes/) All Rights Reserved |"
 
 # Preloader
 [params.preloader]

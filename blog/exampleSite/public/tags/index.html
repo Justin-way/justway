@@ -185,9 +185,14 @@
 
 
 
+<footer class="text-capitalize">
+  <div class="container">
+
+  </div>
+</footer>
 
 <script>
-  var indexURL = { "index.json" : absURL }
+  var indexURL = "https://Justin-way.github.io/index.json"
 </script>
 
 <!-- JS Plugins -->
@@ -225,7 +230,7 @@
 			cookieBox.classList.remove('cookie-box-hide');
 			cookieButton.onclick = function () {
 				Cookies.set('cookie-box', true, {
-					expires: { site:Params.cookies.expire_days }
+					expires:  2 
 				});
 				cookieBox.classList.add('cookie-box-hide');
 			};

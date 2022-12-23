@@ -188,45 +188,45 @@
           
           
           
-          <div class="col-lg-8 -md-6 mb-4">
+          <div class="col-lg-12 -md-6 mb-4">
             <article class="card">
              
               <div class="card-body px-0">
-                
-                <a href="/categories/go-language"
-                  class="text-primary">Go language</a>
-                
-                <a href="https://Justin-way.github.io/blog/test/" class="h5 d-block my-3">小偉第一篇文章</a>
+                <a href="https://Justin-way.github.io/blog/test/" class="h5 d-block my-3"><font size="5">●&nbsp;小偉第一篇文章</font></a>
                 <div class="mb-3 post-meta">
-                  <span>By 小偉</span>
+                  <span>&emsp;&nbsp;&nbsp;By 小偉</span>
                   
-                  <span class="border-bottom border-primary px-2 mx-1"></span>
                   <span>2022-12-19</span>
                   
+                  
+                  <a href="/categories/go-language"
+                    class="text-primary">&emsp;&nbsp;#Go language</a>
+                  
                 </div>
-                <p class="card-text">this is meta description</p>
+                <p class="card-text">&emsp;&nbsp;&nbsp;this is meta description</p>
+                &emsp;&nbsp;
                 <a href="https://Justin-way.github.io/blog/test/" class="btn btn-outline-primary">read more</a>
               </div>
             </article>
           </div>
           
-          <div class="col-lg-8 -md-6 mb-4">
+          <div class="col-lg-12 -md-6 mb-4">
             <article class="card">
              
               <div class="card-body px-0">
-                
-                <a href="/categories/%e5%bf%83%e5%be%97"
-                  class="text-primary">心得</a>
-                
-                <a href="https://Justin-way.github.io/blog/post-13/" class="h5 d-block my-3">How To Use Checklists To Improve Your UX</a>
+                <a href="https://Justin-way.github.io/blog/post-13/" class="h5 d-block my-3"><font size="5">●&nbsp;How To Use Checklists To Improve Your UX</font></a>
                 <div class="mb-3 post-meta">
-                  <span>By 小偉</span>
+                  <span>&emsp;&nbsp;&nbsp;By 小偉</span>
                   
-                  <span class="border-bottom border-primary px-2 mx-1"></span>
                   <span>2019-10-29</span>
                   
+                  
+                  <a href="/categories/%e5%bf%83%e5%be%97"
+                    class="text-primary">&emsp;&nbsp;#心得</a>
+                  
                 </div>
-                <p class="card-text">介紹文章使用方法</p>
+                <p class="card-text">&emsp;&nbsp;&nbsp;介紹文章使用方法</p>
+                &emsp;&nbsp;
                 <a href="https://Justin-way.github.io/blog/post-13/" class="btn btn-outline-primary">read more</a>
               </div>
             </article>
@@ -247,9 +247,14 @@
 
 
 
+<footer class="text-capitalize">
+  <div class="container">
+
+  </div>
+</footer>
 
 <script>
-  var indexURL = { "index.json" : absURL }
+  var indexURL = "https://Justin-way.github.io/index.json"
 </script>
 
 <!-- JS Plugins -->
@@ -287,7 +292,7 @@
 			cookieBox.classList.remove('cookie-box-hide');
 			cookieButton.onclick = function () {
 				Cookies.set('cookie-box', true, {
-					expires: { site:Params.cookies.expire_days }
+					expires:  2 
 				});
 				cookieBox.classList.add('cookie-box-hide');
 			};
