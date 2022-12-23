@@ -6,6 +6,8 @@ theme = "liva-hugo"
 summaryLength = "10"
 paginate = 5
 disqusShortname = "justin-way"
+defaultContentLanguage = "en"
+
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
