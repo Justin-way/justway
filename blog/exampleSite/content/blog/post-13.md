@@ -12,9 +12,6 @@ description: "介紹文章使用方法"
 # taxonomies
 categories:
   - "心得"
-tags:
-  - "Shiba"
-  - "Good"
 
 # post type
 type: "post"

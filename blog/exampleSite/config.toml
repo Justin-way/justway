@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://Justin-way.github.io"
 languageCode = "zh-tw"
-title = "Test"
+title = "Wayne's Blog"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
@@ -45,9 +45,15 @@ URL = "plugins/search/search.js"
 
 # main menu
 [[menu.main]]
-name = "About"
+name = "Blog"
+URL = "/"
+weight = 1
+[[menu.main]]
+name = "about me"
 URL = "about/"
 weight = 1
+
+
 
 # footer menu
 [[menu.footer]]

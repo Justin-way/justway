@@ -12,9 +12,6 @@ description: "this is meta description"
 # taxonomies
 categories:
   - "Go Language"
-tags:
-  - "Photos"
-  - "Game"
 
 # post type
 type: "post"
