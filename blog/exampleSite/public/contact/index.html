@@ -61,39 +61,40 @@
   <div class="container">
     
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
-      <a class="navbar-brand mobile-view" href="https://Justin-way.github.io"><img class="img-fluid"
-          src="https://Justin-way.github.io/images/logo.png" alt="Wayne&#39;s Blog"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
       </button>
 
       <div class="collapse navbar-collapse text-center" id="navigation">
         <div class="desktop-view">
-          <ul class="navbar-nav mr-auto">
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/Justin-way"><i class="ti-github"></i></a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
-            </li>
-            
-          </ul>
+        
+
+
+          <a class="navbar-nav mr-auto" href="https://Justin-way.github.io" >
+              <p style="color:#5C1E2C"><strong>&emsp;
+                &emsp;
+                &emsp;
+                &emsp;
+                &emsp;
+                &nbsp;
+                <font size="5">Wayne's Blog</font></strong>
+              </p>
+            </a>
         </div>
 
-        <a class="navbar-brand mx-auto desktop-view" href="https://Justin-way.github.io"><img class="img-fluid"
-            src="https://Justin-way.github.io/images/logo.png" alt="Wayne&#39;s Blog"></a>
+        <a class="navbar-brand mx-auto desktop-view"></a>
 
         <ul class="navbar-nav">
           
           
           <li class="nav-item">
-            <a class="nav-link" href="https://Justin-way.github.io/about/">About</a>
+            <a class="nav-link" href="https://Justin-way.github.io/about/">about me</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://Justin-way.github.io/">Blog</a>
           </li>
           
           
@@ -180,71 +181,9 @@
 
 
 
-<footer class="text-capitalize">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center mb-5">
-        <a href="https://Justin-way.github.io"><img src="https://Justin-way.github.io/images/logo.png" alt="Wayne&#39;s Blog"></a>
-      </div>
-               
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Contact Me</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="tel:0920111222"><i
-                class="ti-mobile mr-3 text-primary"></i>0920111222</a></li>
-          
-                     
-          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Dhaka, Bangladedsh</li>
-          
-                     
-          <li class="mb-3"><a class="text-dark" href="mailto:thebest77771023@yahoo.com.tw"><i
-                class="ti-email mr-3 text-primary"></i>thebest77771023@yahoo.com.tw</a>
-          
-          </li>
-        </ul>
-      </div>
-      
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Social Contacts</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="https://github.com/Justin-way">github</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
-          
-        </ul>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Categories</h6>
-        <ul class="list-unstyled">
-          <li class="mb-3"><a class="text-dark"
-              href="/categories/go-language/">Go language</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="/categories/%e5%bf%83%e5%be%97/">心得</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Quick Links</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="https://Justin-way.github.io/about/">About</a></li>
-          
-        </ul>
-      </div>
-      <div class="col-12 border-top py-4 text-center">
-        | copyright © 2021 <a href="https://themefisher.com/hugo-themes/">Themefisher</a> All Rights Reserved |
-      </div>
-    </div>
-  </div>
-</footer>
 
 <script>
-  var indexURL = "https://Justin-way.github.io/index.json"
+  var indexURL = { "index.json" : absURL }
 </script>
 
 <!-- JS Plugins -->
@@ -282,7 +221,7 @@
 			cookieBox.classList.remove('cookie-box-hide');
 			cookieButton.onclick = function () {
 				Cookies.set('cookie-box', true, {
-					expires:  2 
+					expires: { site:Params.cookies.expire_days }
 				});
 				cookieBox.classList.add('cookie-box-hide');
 			};
