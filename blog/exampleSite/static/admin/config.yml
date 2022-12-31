@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: "Justin-way/Justin-way.github.io" # blog 存放在 Github repo 的位置
-  branch: "master" # 分支
+  branch: "main" # 分支
   site_url: "https://github.com/Justin-way/Justin-way.github.io" # 你的網站網址
 
 media_folder: "static/img" # 存放多媒體的資料夾
