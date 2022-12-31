@@ -20,7 +20,3 @@ collections: # https://www.netlifycms.org/docs/configuration-options/#collection
       - { label: "標題", name: "title", widget: "string" }
       - { label: "發布日期", name: "date", widget: "datetime" }
       - { label: "內容", name: "body", widget: "markdown" }
-      - { label: "作者", name: "author", widget: "string" }
-      - { label: "短網址", name: "slug", widget: "string" }
-      - { label: "標籤", name: "tags", widget: "list", required: false }
-      - { label: "分類", name: "categories", widget: "list", required: false }
