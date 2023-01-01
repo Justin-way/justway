@@ -24,6 +24,6 @@ collections: # https://www.netlifycms.org/docs/configuration-options/#collection
       - { label: "分類", name: "categories", widget: "list" }
       - { label: "內容", name: "body", widget: "markdown" }
      scope:
-      path: "blog/exampleSite/content/blog/"
+      path: "blog/exampleSite/content/blog/*"
       values:
         type: "post"
