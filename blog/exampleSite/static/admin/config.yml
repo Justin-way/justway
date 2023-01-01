@@ -27,4 +27,4 @@ collections: # https://www.netlifycms.org/docs/configuration-options/#collection
         path: "blog/exampleSite/content/blog/"
         pattern: ".md"
         values:
-        type: "post"
+          type: "post"
