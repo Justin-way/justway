@@ -22,9 +22,5 @@ collections: # https://www.netlifycms.org/docs/configuration-options/#collection
       - { label: "草稿", name: "draft", widget: "boolean" }
       - { label: "描述", name: "description", widget: "string" }
       - { label: "分類", name: "categories", widget: "list" }
+      - { label: "類型", name: "type", widget: "string" }
       - { label: "內容", name: "body", widget: "markdown" }
-      defaults:
-      scope:
-        path: "blog/exampleSite/content/blog/*"
-        values:
-        type: "post"
