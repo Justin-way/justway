@@ -23,9 +23,4 @@ collections: # https://www.netlifycms.org/docs/configuration-options/#collection
       - { label: "描述", name: "description", widget: "string" }
       - { label: "分類", name: "categories", widget: "list" }
       - { label: "類型", name: "type", widget: "string", default: "post" }
-      - {
-          label: "內容",
-          name: "body",
-          widget: "markdown",
-          default: "&nbsp;&nbsp;&nbsp;&nbsp;",
-        }
+      - { label: "內容", name: "body", widget: "markdown" }
