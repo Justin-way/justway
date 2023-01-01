@@ -26,7 +26,7 @@ if(searchQuery){
 
 
 function executeSearch(searchQuery){
-  $.getJSON( indexURL, function( data ) {
+  $.getJSON( "https://justin-way.netlify.app/search/", function( data ) {
     var pages = data;
     var fuse = new Fuse(pages, fuseOptions);
     var result = fuse.search(searchQuery);
