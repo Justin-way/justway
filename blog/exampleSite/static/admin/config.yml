@@ -23,7 +23,7 @@ collections: # https://www.netlifycms.org/docs/configuration-options/#collection
       - { label: "描述", name: "description", widget: "string" }
       - { label: "分類", name: "categories", widget: "list" }
       - { label: "內容", name: "body", widget: "markdown" }
-      scope:
-        path: "blog/exampleSite/content/blog/"
-        values:
-          type: "post"
+     scope:
+      path: "blog/exampleSite/content/blog/"
+      values:
+        type: "post"
