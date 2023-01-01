@@ -19,7 +19,7 @@ collections: # https://www.netlifycms.org/docs/configuration-options/#collection
     fields:
       - { label: "標題", name: "title", widget: "string" }
       - { label: "發布日期", name: "date", widget: "datetime" }
-      - { label: "草稿", name: "draft", widget: "boolean" }
+      - { label: "草稿", name: "draft", widget: "boolean", default: "true" }
       - { label: "描述", name: "description", widget: "string" }
       - { label: "分類", name: "categories", widget: "list" }
       - { label: "類型", name: "type", widget: "string", default: "post" }
