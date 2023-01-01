@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test6 on Wayne&#39;s Blog</title>
+    <link>https://justin-way.netlify.app/categories/test6/</link>
+    <description>Recent content in Test6 on Wayne&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 01 Jan 2023 09:28:20 +0000</lastBuildDate><atom:link href="https://justin-way.netlify.app/categories/test6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test6eeeeee</title>
+      <link>https://justin-way.netlify.app/blog/2023-01-01-test6-1/</link>
+      <pubDate>Sun, 01 Jan 2023 09:28:20 +0000</pubDate>
+      
+      <guid>https://justin-way.netlify.app/blog/2023-01-01-test6-1/</guid>
+      <description>wqwqqTest6efeewfwefwefwfwfwfwfwwwqwq</description>
+    </item>
+    
+    <item>
+      <title>Test6</title>
+      <link>https://justin-way.netlify.app/blog/2023-01-01-test6/</link>
+      <pubDate>Sun, 01 Jan 2023 09:21:06 +0000</pubDate>
+      
+      <guid>https://justin-way.netlify.app/blog/2023-01-01-test6/</guid>
+      <description>Test6</description>
+    </item>
+    
+  </channel>
+</rss>

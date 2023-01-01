@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life&amp;Daily on Wayne&#39;s Blog</title>
-    <link>https://Justin-way.github.io/categories/lifedaily/</link>
+    <link>https://justin-way.netlify.app/categories/lifedaily/</link>
     <description>Recent content in Life&amp;Daily on Wayne&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 23 Dec 2022 10:03:47 +0800</lastBuildDate><atom:link href="https://Justin-way.github.io/categories/lifedaily/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Dec 2022 10:03:47 +0800</lastBuildDate><atom:link href="https://justin-way.netlify.app/categories/lifedaily/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第一篇文章</title>
-      <link>https://Justin-way.github.io/blog/first_article/</link>
+      <link>https://justin-way.netlify.app/blog/first_article/</link>
       <pubDate>Fri, 23 Dec 2022 10:03:47 +0800</pubDate>
       
-      <guid>https://Justin-way.github.io/blog/first_article/</guid>
+      <guid>https://justin-way.netlify.app/blog/first_article/</guid>
       <description>我的部落格終於完成了啦！！感動感動，大推 Hahow 古古老師的課程Github 免費架站術！輕鬆打造個人品牌，先前就一直想 Medium 開始寫自己的文章，不過先前看到多數部落客陸續出走的消息 (SEO 流量不再, 或是有更好的平台)，便打消這念頭。總而言之，目前總算有個平台能夠讓我分享應用技術和生活日常，統整分享我進入軟體業所學的東西，讚讚～</description>
     </item>
     
