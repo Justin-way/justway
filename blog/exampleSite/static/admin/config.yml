@@ -25,6 +25,6 @@ collections: # https://www.netlifycms.org/docs/configuration-options/#collection
       - { label: "內容", name: "body", widget: "markdown" }
       defaults:
       scope:
-      path: "blog/exampleSite/content/blog/*"
-      values:
-      type: "post"
+        path: "blog/exampleSite/content/blog/*"
+        values:
+        type: "post"
