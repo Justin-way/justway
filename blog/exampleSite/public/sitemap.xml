@@ -3,18 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://justin-way.netlify.app/blog/</loc>
-    <lastmod>2023-01-01T12:31:12+00:00</lastmod>
+    <lastmod>2023-01-01T17:23:16+00:00</lastmod>
   </url><url>
     <loc>https://justin-way.netlify.app/categories/</loc>
-    <lastmod>2023-01-01T12:31:12+00:00</lastmod>
+    <lastmod>2023-01-01T17:23:16+00:00</lastmod>
+  </url><url>
+    <loc>https://justin-way.netlify.app/categories/test15/</loc>
+    <lastmod>2023-01-01T17:23:16+00:00</lastmod>
+  </url><url>
+    <loc>https://justin-way.netlify.app/blog/2023-01-01-test15/</loc>
+    <lastmod>2023-01-01T17:23:16+00:00</lastmod>
+  </url><url>
+    <loc>https://justin-way.netlify.app/</loc>
+    <lastmod>2023-01-01T17:23:16+00:00</lastmod>
+  </url><url>
+    <loc>https://justin-way.netlify.app/categories/%E6%88%91%E6%89%8D%E7%9F%A5%E9%81%93/</loc>
+    <lastmod>2023-01-01T15:39:55+00:00</lastmod>
+  </url><url>
+    <loc>https://justin-way.netlify.app/blog/2023-01-01-%E6%88%91%E6%89%8D%E7%9F%A5%E9%81%93/</loc>
+    <lastmod>2023-01-01T15:39:55+00:00</lastmod>
+  </url><url>
+    <loc>https://justin-way.netlify.app/categories/test12/</loc>
+    <lastmod>2023-01-01T15:10:07+00:00</lastmod>
+  </url><url>
+    <loc>https://justin-way.netlify.app/blog/2023-01-01-test12/</loc>
+    <lastmod>2023-01-01T15:10:07+00:00</lastmod>
   </url><url>
     <loc>https://justin-way.netlify.app/categories/test11/</loc>
     <lastmod>2023-01-01T12:31:12+00:00</lastmod>
   </url><url>
     <loc>https://justin-way.netlify.app/blog/2023-01-01-test11/</loc>
-    <lastmod>2023-01-01T12:31:12+00:00</lastmod>
-  </url><url>
-    <loc>https://justin-way.netlify.app/</loc>
     <lastmod>2023-01-01T12:31:12+00:00</lastmod>
   </url><url>
     <loc>https://justin-way.netlify.app/categories/test10/</loc>
