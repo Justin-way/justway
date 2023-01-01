@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://Justin-way.github.io"
+baseURL = "https://justin-way.netlify.app"
 languageCode = "zh-tw"
 title = "Wayne's Blog"
 theme = "liva-hugo"
