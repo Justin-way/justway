@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HTML on Wayne&#39;s Blog</title>
-    <link>https://Justin-way.github.io/tags/html/</link>
+    <link>https://justin-way.netlify.app/tags/html/</link>
     <description>Recent content in HTML on Wayne&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 19 Dec 2022 10:07:47 +0800</lastBuildDate><atom:link href="https://Justin-way.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Dec 2022 10:07:47 +0800</lastBuildDate><atom:link href="https://justin-way.netlify.app/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>小偉第一篇文章</title>
-      <link>https://Justin-way.github.io/blog/test/</link>
+      <link>https://justin-way.netlify.app/blog/test/</link>
       <pubDate>Mon, 19 Dec 2022 10:07:47 +0800</pubDate>
       
-      <guid>https://Justin-way.github.io/blog/test/</guid>
+      <guid>https://justin-way.netlify.app/blog/test/</guid>
       <description>Hellow World
 我是阿偉
 1.test 1.test2
