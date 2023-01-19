@@ -17,6 +17,8 @@ home = ["HTML", "RSS", "JSON"]
 
 # CSS Plugins
 [[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
 URL = "plugins/slick/slick.css"
 [[params.plugins.css]]
 URL = "plugins/themify-icons/themify-icons.css"
